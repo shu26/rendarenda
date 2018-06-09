@@ -12,6 +12,10 @@
 		10818D171E52BA6E00CF4751 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10818D151E52BA6E00CF4751 /* Main.storyboard */; };
 		10818D191E52BA6E00CF4751 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10818D181E52BA6E00CF4751 /* Assets.xcassets */; };
 		10818D1C1E52BA6E00CF4751 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10818D1A1E52BA6E00CF4751 /* LaunchScreen.storyboard */; };
+		10818D241E52BC3100CF4751 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10818D231E52BC3100CF4751 /* GameViewController.swift */; };
+		10818D261E52BD3500CF4751 /* FinishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10818D251E52BD3500CF4751 /* FinishViewController.swift */; };
+		10818D281E52C0E300CF4751 /* CountdownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10818D271E52C0E300CF4751 /* CountdownViewController.swift */; };
+		1090D2541E56F29600A305E5 /* RankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1090D2531E56F29600A305E5 /* RankingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		10818D181E52BA6E00CF4751 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10818D1B1E52BA6E00CF4751 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		10818D1D1E52BA6E00CF4751 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10818D231E52BC3100CF4751 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		10818D251E52BD3500CF4751 /* FinishViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinishViewController.swift; sourceTree = "<group>"; };
+		10818D271E52C0E300CF4751 /* CountdownViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountdownViewController.swift; sourceTree = "<group>"; };
+		1090D2531E56F29600A305E5 /* RankingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,10 @@
 				10818D111E52BA6E00CF4751 /* AppDelegate.swift */,
 				10818D131E52BA6E00CF4751 /* ViewController.swift */,
 				10818D151E52BA6E00CF4751 /* Main.storyboard */,
+				1090D2531E56F29600A305E5 /* RankingViewController.swift */,
+				10818D271E52C0E300CF4751 /* CountdownViewController.swift */,
+				10818D251E52BD3500CF4751 /* FinishViewController.swift */,
+				10818D231E52BC3100CF4751 /* GameViewController.swift */,
 				10818D181E52BA6E00CF4751 /* Assets.xcassets */,
 				10818D1A1E52BA6E00CF4751 /* LaunchScreen.storyboard */,
 				10818D1D1E52BA6E00CF4751 /* Info.plist */,
@@ -138,7 +150,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				10818D141E52BA6E00CF4751 /* ViewController.swift in Sources */,
+				10818D281E52C0E300CF4751 /* CountdownViewController.swift in Sources */,
+				10818D261E52BD3500CF4751 /* FinishViewController.swift in Sources */,
+				10818D241E52BC3100CF4751 /* GameViewController.swift in Sources */,
 				10818D121E52BA6E00CF4751 /* AppDelegate.swift in Sources */,
+				1090D2541E56F29600A305E5 /* RankingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +318,7 @@
 				10818D221E52BA6E00CF4751 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
