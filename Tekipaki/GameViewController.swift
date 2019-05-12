@@ -56,7 +56,7 @@ class GameViewController: UIViewController {
     
   }
   
-  func timerInterrupt(_ timer:Timer) {
+    @objc func timerInterrupt(_ timer:Timer) {
     count += 0.1
     if displayUpdate() <= 0 {
       timer.invalidate()
@@ -125,7 +125,7 @@ class GameViewController: UIViewController {
   
   
   //リセット処理
-  func resetValue() {
+    @objc func resetValue() {
     print("resetValue()呼べてる")
     answerCount=0
     print("answerCount:\(answerCount)")

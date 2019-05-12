@@ -42,7 +42,7 @@ class CountdownViewController: UIViewController {
   }
   
   
-  func timerInterrupt(_ timer:Timer) {
+    @objc func timerInterrupt(_ timer:Timer) {
     count += 1
     if displayUpdate() <= 0 {
       timer.invalidate()
